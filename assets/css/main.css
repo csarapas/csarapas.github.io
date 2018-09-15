@@ -115,7 +115,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgba(255, 255, 255, 0.7);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -152,7 +152,8 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		color: inherit;
+		color: rgba(255, 255, 255, 0.9);
+		<!-- color: inherit; -->
 		text-decoration: none;
 	}
 
@@ -193,7 +194,7 @@ input, select, textarea {
 		h1.major {
 			margin: 0 0 1.3em 0;
 			position: relative;
-			padding-bottom: 0.35em;
+			<!-- padding-bottom: 0.35em; -->
 		}
 
 			h1.major:after {
@@ -234,7 +235,7 @@ input, select, textarea {
 		font-size: 0.6em;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 760px) {
 
 		h1 {
 			font-size: 2em;
@@ -261,6 +262,35 @@ input, select, textarea {
 		}
 
 	}
+
+	@media screen and (max-width: 650px) {
+
+		h1 {
+			font-size: 1.75em;
+		}
+
+		h2 {
+			font-size: 1.25em;
+		}
+
+		h3 {
+			font-size: 1em;
+		}
+
+		h4 {
+			font-size: 0.8em;
+		}
+
+		h5 {
+			font-size: 0.6em;
+		}
+
+		h6 {
+			font-size: 0.6em;
+		}
+
+	}
+
 
 	sub {
 		font-size: 0.8em;
@@ -3720,7 +3750,8 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			<!-- color: rgba(255, 255, 255, 0.35); -->
+			color: rgba(255, 255, 255, 0.5);
 			display: block;
 			font-size: 0.7em;
 			font-weight: bold;
