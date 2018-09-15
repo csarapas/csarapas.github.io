@@ -3206,13 +3206,15 @@ input, select, textarea {
 
 			}
 
-			@media screen and (max-width: 1280px) {
+			/*
+      @media screen and (max-width: 1280px) {
 
 				.wrapper > .inner {
 					width: 100%;
 				}
 
 			}
+      */
 
 			@media screen and (max-width: 736px) {
 
@@ -3270,7 +3272,8 @@ input, select, textarea {
 				height: 100vh;
 			}
 
-			@media screen and (max-width: 1280px) {
+			/*
+      @media screen and (max-width: 1280px) {
 
 				.wrapper.fullscreen {
 					min-height: calc(100vh - 2.5em);
@@ -3281,6 +3284,7 @@ input, select, textarea {
 					}
 
 			}
+      */
 
 			@media screen and (max-width: 736px) {
 
@@ -3452,7 +3456,8 @@ input, select, textarea {
 		margin-left: 18em;
 	}
 
-		@media screen and (max-width: 1280px) {
+		/*
+    @media screen and (max-width: 1280px) {
 
 			#sidebar + #wrapper {
 				margin-left: 0;
@@ -3460,6 +3465,7 @@ input, select, textarea {
 			}
 
 		}
+    */
 
 		@media screen and (max-width: 736px) {
 
@@ -3479,7 +3485,8 @@ input, select, textarea {
 		margin-left: 18em;
 	}
 
-		@media screen and (max-width: 1280px) {
+    /* was 1280px */
+		@media screen and (max-width: 736px) {
 
 			#sidebar + #wrapper + #footer {
 				margin-left: 0;
@@ -3783,72 +3790,6 @@ input, select, textarea {
 			transform: translateY(2em);
 			opacity: 0;
 		}
-  
-    /*
-		@media screen and (max-width: 1280px) {
-
-			#sidebar {
-				/* height: 3.5em; */
-				height: auto;
-				left: 0;
-				line-height: 3.5em;
-				/* overflow: hidden; */
-				overflow: auto;
-				padding: 0;
-				text-align: center;
-				top: 0;
-				width: 100%;
-			}
-
-				#sidebar > .inner {
-					-moz-flex-direction: row;
-					-webkit-flex-direction: row;
-					-ms-flex-direction: row;
-					flex-direction: row;
-					-moz-align-items: -moz-stretch;
-					-webkit-align-items: -webkit-stretch;
-					-ms-align-items: -ms-stretch;
-					align-items: stretch;
-					height: inherit;
-					line-height: inherit;
-				}
-
-				#sidebar nav {
-					height: inherit;
-					line-height: inherit;
-				}
-
-					#sidebar nav ul {
-						display: -moz-flex;
-						display: -webkit-flex;
-						display: -ms-flex;
-						display: flex;
-						height: inherit;
-						line-height: inherit;
-						margin: 0;
-					}
-
-						#sidebar nav ul li {
-							display: block;
-							height: inherit;
-							line-height: inherit;
-							margin: 0 0 0 2em;
-							padding: 0;
-						}
-
-					#sidebar nav a {
-						height: inherit;
-						line-height: inherit;
-						padding: 0;
-					}
-
-						#sidebar nav a:after {
-							background-image: none;
-							background-color: #b74e91;
-						}
-
-		}
-*/
 
 		@media screen and (max-width: 736px) {
 
