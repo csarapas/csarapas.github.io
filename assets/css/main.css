@@ -188,12 +188,13 @@ input, select, textarea {
 
 	h1 {
 		font-size: 2.75em;
+		margin: 0 0 0 0;
 	}
 
 		h1.major {
 			margin: 0 0 1.3em 0;
 			position: relative;
-			padding-bottom: 0.35em
+			padding-bottom: 0.35em;
 		}
 
 			h1.major:after {
@@ -3749,7 +3750,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.4)
+			color: rgba(255, 255, 255, 0.45);
 			display: block;
 			font-size: 0.7em;
 			font-weight: bold;
@@ -3812,13 +3813,14 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1000px) {
 
 			#sidebar {
-				height: 3.5em;
+				/* height: 3.5em; */
 				left: 0;
 				line-height: 3.5em;
-				overflow: hidden;
+				/* overflow: hidden; */
+				overflow: auto;
 				padding: 0;
 				text-align: center;
 				top: 0;
