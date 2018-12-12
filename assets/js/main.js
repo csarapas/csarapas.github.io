@@ -12,9 +12,9 @@
 
 	// Breakpoints.
 		breakpoints({
-			xlarge:   [ '983px',  '1680px' ],
-			large:    [ '981px',   '982px' ],
-			medium:   [ '737px',   '980px'  ],
+			xlarge:   [ '741px',  '1680px' ],
+			large:    [ '739px',   '740px' ],
+			medium:   [ '737px',   '738px'  ],
 			small:    [ '481px',   '736px'  ],
 			xsmall:   [ null,      '480px'  ]
 		});
