@@ -122,7 +122,7 @@ input, select, textarea {
 		line-height: 1.75;
 	}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1920px) {
 
 			body, input, select, textarea {
 				font-size: 13pt;
@@ -571,7 +571,7 @@ input, select, textarea {
 					padding-top: 3em;
 				}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1920px) {
 
 			.row {
 				display: flex;
@@ -2913,7 +2913,7 @@ input, select, textarea {
 			width: calc(33.33333% - 2.5em);
 		}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1920px) {
 
 			.split > * {
 				width: calc(50% - 2em);
@@ -3074,7 +3074,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1920px) {
 
 			.spotlights > section > .content {
 				padding: 4em 4em 2em 4em ;
@@ -3199,7 +3199,7 @@ input, select, textarea {
 			width: 75em;
 		}
 
-			@media screen and (max-width: 1680px) {
+			@media screen and (max-width: 1920px) {
 
 				.wrapper > .inner {
 					padding: 4em 4em 2em 4em ;
